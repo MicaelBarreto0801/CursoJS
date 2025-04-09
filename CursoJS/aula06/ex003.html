@@ -24,9 +24,13 @@
     <p>Já me livrei da maldição!!        
     </p>
     <script>
-        window.alert('Minha primeira mensagem!')
-        window.confirm('Está gostando de JS?') // Janela com o botão OK e Cancelar
-        window.prompt('Qual é seu nome?') // Vai pergunta o nome...
+        
+        var n1 = Number(window.prompt("Digite um número: "))// Tipo string 
+        var n2 = Number(window.prompt("Digite outro número: "))// Tipo string
+        var s = n1 + n2         
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // Concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
     </script>
 </body>
 </html>
